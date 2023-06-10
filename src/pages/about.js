@@ -10,5 +10,3 @@ const AboutPage = () => {
 }
 
 export default AboutPage
-
-export const Head = () => <title> About Me </title>
