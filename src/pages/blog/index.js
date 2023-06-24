@@ -15,6 +15,7 @@ const Blog = ({data}) => {
              <Link to={`/blog/${node.frontmatter.slug}`}>
                 <p>{node.frontmatter.title}</p>
               </Link> 
+              <p>{node.frontmatter.date}</p>
             </div>
           </article>
         ))
